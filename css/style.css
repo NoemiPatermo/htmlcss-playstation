@@ -1,6 +1,6 @@
 /*RISCRITTURA BOOTSTRAP*/ 
 nav{
-    height: 50px;
+    height: 80px;
 }
 .collapse{
     flex-grow: 0;
@@ -10,8 +10,13 @@ nav{
     border: 1px solid white;
 }
 /*FINE RISCRITTURA*/
-.jumbo{
+section{
     background-image: url(../img/jumbo-bg.png);
-    height: 500px;;
-    
+    background-size: cover;
+    background-position:center;
+    height: 600px;    
+}
+.jumbo-content{
+    color: white;
+    font-weight: bolder;
 }
