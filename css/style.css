@@ -26,13 +26,29 @@ nav{
 section{
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
-    background-position:center;
-    height: 600px;    
+      
 }
 .jumbo-content{
     color: white;
     font-weight: bolder;
 }
-.banner{
-    width:150px;
+.banner img{
+    width:250px;
+    margin-top: 70px;
+}
+.push button{
+    background-color: orangered;
+    border-radius: 20px;
+}
+.mini-games img{
+    width: 100%; 
+    border-radius: 20px;
+    border: 2px solid white;
+
+}
+.mini-games img:hover{
+    border: 2px solid blue;
+}
+.games{
+    margin-top: 24px;
 }
