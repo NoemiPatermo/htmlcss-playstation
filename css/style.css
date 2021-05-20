@@ -1,0 +1,17 @@
+/*RISCRITTURA BOOTSTRAP*/ 
+nav{
+    height: 50px;
+}
+.collapse{
+    flex-grow: 0;
+}
+
+.navbar-dark .navbar-toggler{
+    border: 1px solid white;
+}
+/*FINE RISCRITTURA*/
+.jumbo{
+    background-image: url(../img/jumbo-bg.png);
+    height: 500px;;
+    
+}
