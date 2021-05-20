@@ -14,9 +14,13 @@ nav{
 .nav-link {
     color: black;
 }
-.navbar-dark .navbar-toggler{
-    border: 1px solid white;
+.navbar-toggler{
+    border: 1px solid black;
 }
+.login button{
+    border-radius: 30px
+}
+
 /*FINE RISCRITTURA*/
 
 section{
