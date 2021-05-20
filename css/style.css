@@ -1,15 +1,24 @@
+.sony-bar{
+    background-color: black;
+    height: 30px;
+}
+.sony-logo{
+    height: 15px;
+}
+
 /*RISCRITTURA BOOTSTRAP*/ 
 nav{
     height: 80px;
 }
-.collapse{
-    flex-grow: 0;
-}
 
+.nav-link {
+    color: black;
+}
 .navbar-dark .navbar-toggler{
     border: 1px solid white;
 }
 /*FINE RISCRITTURA*/
+
 section{
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
@@ -19,4 +28,7 @@ section{
 .jumbo-content{
     color: white;
     font-weight: bolder;
+}
+.banner{
+    width:150px;
 }
