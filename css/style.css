@@ -20,13 +20,16 @@ nav{
 .login button{
     border-radius: 30px
 }
+.ok i{
+    font-size: 50px;
+}
 
 /*FINE RISCRITTURA*/
 
-section{
+.jumbotrone{
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
-      
+    background-position: center;
 }
 .jumbo-content{
     color: white;
@@ -40,6 +43,9 @@ section{
     background-color: orangered;
     border-radius: 20px;
 }
+.push button:hover{
+    border: 2px solid black;
+}
 .mini-games img{
     width: 100%; 
     border-radius: 20px;
@@ -51,4 +57,16 @@ section{
 }
 .games{
     margin-top: 24px;
+}
+.harware{
+    background-color: #fff;
+}
+
+.title-hardware{
+    text-align: center;
+    margin-top: 30px;
+}
+.harware-picture img{
+   
+    width: 100%;
 }
