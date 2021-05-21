@@ -20,8 +20,12 @@ nav{
 .login button{
     border-radius: 30px
 }
-.ok i{
+.search i{
     font-size: 50px;
+}
+.navbar i{
+    vertical-align: middle;
+    
 }
 
 /*FINE RISCRITTURA*/
@@ -66,7 +70,17 @@ nav{
     text-align: center;
     margin-top: 30px;
 }
-.harware-picture img{
-   
+.hardware-content{
+    
+    line-height: 20px;
+}
+.hardware-picture img{
+   width: 100%;
+    
+}
+.accessory{
+    text-align: center;
+}
+.accessory img{
     width: 100%;
 }
