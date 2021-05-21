@@ -1,14 +1,17 @@
 .sony-bar{
-    background-color: black;
-    height: 30px;
+    background-color: black;   
 }
 .sony-logo{
     height: 15px;
 }
 
 /*RISCRITTURA BOOTSTRAP*/ 
-nav{
-    height: 80px;
+.navbar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+    background-color: white;
 }
 
 .nav-link {
@@ -21,7 +24,8 @@ nav{
     border-radius: 30px
 }
 .search i{
-    font-size: 50px;
+    font-size: 60px;
+    vertical-align: middle;
 }
 .navbar i{
     vertical-align: middle;
@@ -34,10 +38,13 @@ nav{
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
+    
 }
-.jumbo-content{
+.banner-content{
     color: white;
     font-weight: bolder;
+    padding-bottom: 70px;
+    padding-top: 150px;
 }
 .banner-logo img{
     width:250px;
@@ -45,11 +52,14 @@ nav{
 }
 .push button{
     background-color: orangered;
+    border: 1px solid white;
     border-radius: 20px;
 }
 .push button:hover{
-    border: 2px solid black;
+    border: 2px solid blue;
 }
+/*BOX MINI-GAMES*/
+
 .mini-games img{
     width: 100%; 
     border-radius: 20px;
@@ -61,9 +71,7 @@ nav{
 .games{
     margin-top: 24px;
 }
-.hardware{
-    background-color: #fff;
-}
+/*PLAYSTATION 5 E ACCESSORI*/
 
 .title-hardware{
     text-align: center;
@@ -93,9 +101,48 @@ nav{
     background-size: cover;
     background-position: center;
 }
+
+/*GAME GRID E NUOVE USCITE*/
+
 .game-grid{
     background-color: #191919;
 }
-.game-grid-text{
+.game-grid-text, .mini-game-grid-text{
     color: white;
+}
+.mini-game-grid img{
+    width: 100%;
+    border-radius: 20px;
+}
+.mini-game-grid-text span{
+    font-size: 7px;
+    
+}
+
+/*PLAYSTATION 4*/
+
+.play-4-title{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.play-4-content img{
+    width: 100%;
+}
+.more button{
+    background-color: blue;
+    border-radius: 20px;
+}
+/*PLAYSTATION PLUS*/
+.playstation-plus{
+    background-color: rgb(190, 188, 188);
+}
+.playstation-plus-logo img{
+    width: 180px;
+}
+.playstation-plus-content img{
+    width: 100%;
+}
+.play-plus button{
+    border-radius: 20px;
 }
