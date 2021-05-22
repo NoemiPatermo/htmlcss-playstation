@@ -120,10 +120,14 @@
 }
 
 /*PLAYSTATION 4*/
-
 .play-4-title{
     text-align: center;
     margin-top: 30px;
+    line-height: 10px;
+}
+.play-4-title h5{
+    font-weight: 600;
+    color: #34344c;
 }
 
 .play-4-content img{
@@ -138,11 +142,72 @@
     background-color: rgb(190, 188, 188);
 }
 .playstation-plus-logo img{
-    width: 180px;
+    width: 100%;
+}
+.playstation-plus-description{
+    margin-top: 20px;
+}
+.playstation-plus-description p{
+    font-weight: 500;
 }
 .playstation-plus-content img{
     width: 100%;
 }
-.play-plus button{
+.playstation-plus-description > button{
     border-radius: 20px;
+    background-color:#e6e6e6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:blue;
+}
+/*PS DISCOUNTS*/
+.discounts-title{
+    text-align: center;
+    margin-top: 30px;
+}
+.discounts-title > h5{
+    margin-top: 20px;
+    color: darkgrey;
+}
+.discount img{
+    width: 100%;
+}
+/*PLAYSTATION NOW*/
+.playstation-now{
+    background-color: #00004d;
+}
+.playstation-now-logo img{
+    width: 100%;
+}
+.playstation-now-description{
+    margin: top 20px; 
+}
+.playstation-now-description p{
+    color: white;
+}
+.playstation-now-content img{
+    width: 100%;
+}
+.playstation-now-description > button{
+    border-radius: 20px;
+    background-color:#e6e6e6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*SOCIAL MEDIA*/
+.media-title{
+    text-align: center;
+    margin-top: 30px;
+}
+.social img{
+    width: 100%;
+}
+/*FOOTER*/
+.site-footer{
+    background-color: #00439c;
+}
+
+.ciao{
+    border: 2px solid white;
+    
 }
