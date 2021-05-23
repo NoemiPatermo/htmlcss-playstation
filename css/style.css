@@ -77,6 +77,9 @@
     text-align: center;
     margin-top: 30px;
 }
+.title-hardware a{
+    text-decoration: none;
+}
 .hardware-content{
     line-height: 20px;
 }
@@ -124,6 +127,9 @@
     text-align: center;
     margin-top: 30px;
     line-height: 10px;
+}
+.play-4-title span{
+    font-size: 20px;
 }
 .play-4-title h5{
     font-weight: 600;
@@ -206,8 +212,30 @@
 .site-footer{
     background-color: #00439c;
 }
-
+.footer img{
+    width: 100px;
+}
+.footer-content, i, span{
+    color: white;
+}
+.footer, a, p{
+    color: white;
+    text-decoration: none;
+}
+.footer-text p{
+    font-size: 15px;
+}
+.footer-text a{
+    text-decoration: underline;
+}
+.footer ul{
+    list-style: none;
+   
+}
+.sony-interactive img{
+    width: 80px;
+}
 .ciao{
-    border: 2px solid white;
+    border: 1px solid white;
     
 }
