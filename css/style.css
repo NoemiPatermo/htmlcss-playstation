@@ -16,7 +16,7 @@
 .nav-link , .nav-item i{
     color: black;
 }
-.nav-link a:hover{
+.nav-link:hover{
     color: blue;
 }
 .nav-item i:hover{
@@ -28,11 +28,10 @@
 .login button{
     border-radius: 30px;
     border: 2px solid #f2f2f2;
-
 }
 .login button:hover{
     border: 2px solid black;
-    opacity: 0.5;
+    background-color: lightslategray;
 }
 .search li i{
     font-size: 60px;
@@ -61,7 +60,7 @@
 }
 .push button{
     background-color: orangered;
-    border: 1px solid #f2f2f2;
+    border: 1px solid #e6e6e6;
     border-radius: 20px;
 }
 .push button:hover{
@@ -96,8 +95,16 @@
 .hardware-picture img{
    width: 100%;
 }
+.hardware-button{
+    border-radius: 20px;
+    border: 1px solid #e6e6e6;
+}
+.hardware-button:hover{
+    border: 1px solid blue;
+}
 .box-accessories{
     opacity: 0.5;
+    border-bottom: 1px solid white;
 }
 .box-accessories:hover{
     opacity: 1;
@@ -130,8 +137,7 @@
 .mini-game-grid-text span{
     vertical-align: super;
     padding-right: 2px;
-    font-size: 5px;
-    
+    font-size: 5px;   
 }
 
 /*PLAYSTATION 4*/
@@ -153,14 +159,20 @@
 .play-4-content img{
     width: 100%;
 }
-
-.more button{
+.discover button{
     background-color: blue;
     border-radius: 20px;
+    border: 1px solid #f2f2f2;
+}
+.discover button:hover{
+    border: 1px solid blue;
 }
 /*PLAYSTATION PLUS*/
 .playstation-plus{
     background-color: rgb(190, 188, 188);
+    padding-top: 25px;
+    padding-bottom: 25px;
+
 }
 .playstation-plus-logo img{
     width: 100%;
@@ -196,6 +208,8 @@
 /*PLAYSTATION NOW*/
 .playstation-now{
     background-color: #00004d;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .playstation-now-logo img{
     width: 100%;
