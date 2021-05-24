@@ -101,6 +101,7 @@
 }
 .hardware-button:hover{
     border: 1px solid blue;
+    background-color: aqua;
 }
 .box-accessories{
     opacity: 0.5;
@@ -166,6 +167,7 @@
 }
 .discover button:hover{
     border: 1px solid blue;
+    background-color: cadetblue;
 }
 /*PLAYSTATION PLUS*/
 .playstation-plus{
@@ -192,6 +194,9 @@
     padding-top: 10px;
     padding-bottom: 10px;
     color:blue;
+}
+.playstation-plus-description button:hover{
+    background-color: #007a99;
 }
 /*PS DISCOUNTS*/
 .discounts-title{
@@ -228,6 +233,9 @@
     background-color:#e6e6e6;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+.playstation-now-description button:hover{
+    background-color: #007a99;
 }
 /*SOCIAL MEDIA*/
 .media-title{
