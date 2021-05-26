@@ -88,6 +88,11 @@
 }
 .title-hardware a{
     text-decoration: none;
+    color: blue;
+}
+.title-hardware p{
+    color: black;
+    font-size: 20px;
 }
 .hardware-content{
     line-height: 20px;
